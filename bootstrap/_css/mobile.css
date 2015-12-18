@@ -1,0 +1,79 @@
+/*
+
+Desktops & Laptops - 1024×768 and higher
+iPhone 5 - 1136×640
+iPhone 4 - 640×960
+iPad First & second generations: 1024×768
+iPad Third generation: 2048×1536
+iPad Mini - 1024×768
+Android Phones & Tablets - 
+Small screens: 426dp x 320dp
+Normal screens: 470dp x 320dp
+Large screens: 640dp x 480dp
+Extra-large screens: 960dp x 720dp
+Most phones are 320px wide or 360px wide
+800px wide
+320 x 480
+1024 x 960 x 800 x 768 x 640 x 480 x 360 
+320 x 480 - (Smart Phones & iPhones)
+
+*/
+
+* {
+	word-wrap: break-word;
+}
+
+/* Order of screen size */
+@media screen and (max-width: 600px) { /* Screen =< 600px */
+    body {
+        background-color: red;
+    }
+	/*** START HEADER ***/
+	#header_logo {
+		width:auto;
+		height:150px;
+		background: url("../_images/logo_main-600x150.png") no-repeat center top;
+	}
+	/*** END HEADER ***/
+}
+@media screen and (max-width: 480px) { /* Screen =< 480px */
+    body {
+        background-color: green;
+    }
+	/*** START HEADER ***/
+	#header_logo {
+		width:auto;
+		height:150px;
+		background: url("../_images/logo_main-480x150.png") no-repeat center top;
+	}
+	/*** END HEADER ***/
+}
+@media screen and (max-width: 360px) { /* Screen =< 360px */
+    body {
+        background-color: blue;
+    }
+	/*** START HEADER ***/
+	#header_logo {
+		width:auto;
+		height:150px;
+		background: url("../_images/logo_main-360x150.png") no-repeat center top;
+	}
+	/*** END HEADER ***/
+}
+
+/*** START COMMON ***/
+
+#header_main, #section_main, #footer_main {
+    width: 100%;
+}
+
+/*** END COMMON ***/
+
+/*** START MISC ***/
+
+#accessibility_nav 
+{
+	display: none;
+}
+
+/*** END MISC ***/

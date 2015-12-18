@@ -1,0 +1,47 @@
+
+/* HR */
+.featurette-divider { 
+	margin: 10px 0; /* Space out the Bootstrap <hr> more */
+	/*border-color:#000;*/
+}
+
+/* START OF CAROUSEL */
+
+#myCarousel .carousel-inner .item1 {
+   background: url(../../../_images/carousel/carousel-1.jpg) no-repeat center center; 
+}
+#myCarousel .carousel-inner .item2 {
+   background: url(../../../_images/carousel/carousel-2.jpg) no-repeat center center; 
+}
+#myCarousel .carousel-inner .item3 {
+   background: url(../../../_images/carousel/carousel-3.jpg) no-repeat center center; 
+}
+#myCarousel .carousel-inner .item4 {
+   background: url(../../../_images/carousel/carousel-4.jpg) no-repeat center center; 
+}
+#myCarousel .carousel-inner .item5 {
+   background: url(../../../_images/carousel/carousel-5.jpg) no-repeat center center; 
+}
+
+#myCarousel .carousel-indicators li {
+	z-index: 1; /* Brings the carousel indicator to the front */
+	background-color:#000;
+	border:2px #CCC solid;
+}
+#myCarousel .carousel-indicators li.active{
+	border:2px #000 solid;
+	background-color:#FFF;
+}
+
+#myCarousel .carousel-caption {
+	height: 100%; /* Makes the DIV big so all area is clickable */
+}
+
+.carousel-control {
+	color: #000;
+}
+.carousel-control:hover {
+	color: #FFF;
+}
+
+/* END OF CAROUSEL */

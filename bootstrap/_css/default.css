@@ -1,0 +1,207 @@
+
+/*** START OF GLOBALS ***/
+
+	* {
+		font-size: 100%;
+		font-family: Arial, Helvetica, sans-serif
+	}
+	
+	body {
+		background-color: #FFF;
+	}
+	
+	img {
+		border: 1px #000 solid;
+	}
+
+/*** END OF GLOBALS ***/
+
+/*** START HYPERLINKS ***/
+
+	a {
+		text-decoration: none;
+	}
+	a:focus { /* Use for accessibility. All important! so will be priority */
+		outline: 1px solid red !important;
+		background: yellow !important;
+		color: #000 !important;
+	}
+	a:link { /* normal, unvisited link */
+		/*color: #000;*/
+	}
+	a:hover { /* when the user mouses over it */
+		/*color: #000;*/
+		text-decoration: underline;
+	}
+	a:visited { /* link the user has visited */
+		/*color: #000;*/
+	}
+	a:active { /* moment it is clicked */
+		/*color: #000;*/
+	}
+
+/*** END HYPERLINKS ***/
+
+/*** START HEADER ***/
+
+	header {
+	}
+	#header_main {
+	}
+	#header_logo {
+		width: auto;
+		height: 150px;
+		background: url("../_images/logo_main-768x150.png") no-repeat center top;
+	}
+	#header_nav {
+		margin: 0 auto;
+		width: inherit;
+		text-align: center;
+	}
+	#header_nav a:link {
+		background: #ccc;
+	}
+	#header_nav a:hover {
+		background: #fff;
+	}
+
+/*** END HEADER ***/
+
+/*** START FOOTER ***/
+
+	footer {
+	}
+	#footer_main {
+	}
+	#footer_nav {
+		text-align:center;
+	}
+
+/*** END FOOTER ***/
+
+/*** START SECTION ***/
+
+	section {
+	}
+	#section_main {
+	}
+	#section_main h1, #section_main p {
+		/*margin: 0%;
+		padding: 1%;*/
+	}
+
+/*** END SECTION ***/
+
+/*** START ARTICLE ***/
+
+	article {
+		border: 1px #000 solid;
+		/*margin: 1%;*/
+	}
+	article p {
+		/*margin: 1%;*/
+	}
+	article header {
+		background: #ccc;
+	}
+	article footer {
+		background: #ccc;
+	}
+	article footer p, article header h2 {
+		/*margin: 0%;
+		padding: 1%;*/
+	}
+	article header img {
+		float: left;
+		clear: left;
+		/*margin: 0.5% 1% 0% 0.5%;*/ /* T R B L */
+	}
+	
+/*** END ARTICLE ***/
+
+/*** START COMMON ***/
+
+	#header_main, #section_main, #footer_main { /* CENTER the main tags */
+		border: 1px #ccc solid;
+		margin: 0 auto;
+		width: 80%;
+		margin-bottom: 1%; /* Space between the main tags */
+	}
+
+/*** END COMMON ***/
+
+/*** START TEXT ***/
+
+	p {
+	}
+	
+	h1 {
+		font-size: 120%;
+	}
+	
+	h2 {
+		font-size: 110%;
+	}
+	
+	h3 {
+	}
+	
+	.info {
+		font-size: 80%;
+	}
+
+/*** END TEXT ***/
+
+/*** START DIV TABLES ***/
+
+	.table {
+		display: table;
+	}
+	
+	.row  {
+		display: table-row;
+	}
+	
+	.left, .right, .middle {
+		display: table-cell;
+		/*padding: 1%;*/
+	}
+
+/*** END DIV TABLES ***/
+
+/*** START HTML5 ELEMENTS ***/
+
+	figure {
+		position: relative;
+		float:right;
+		clear: right;
+		background-color: #ccc;
+		/*padding: 1%;
+		margin:1%;*/
+		width: 150px;
+	}
+	figure img {
+		display: block;
+		/*margin: 0 auto;*/
+	}
+	figcaption {
+		text-align: center;
+		/*padding-top: 5%;*/
+		font-style: italic;
+	}
+
+/*** END HTML5 ELEMENTS ***/
+
+/*** START MISC ***/
+
+	#accessibility_nav {
+		float: left;
+		clear: left;
+	}
+	
+	.BackToTop {
+		float: right;
+		clear: right;
+	}
+
+/*** END MISC ***/
