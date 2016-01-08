@@ -1,5 +1,6 @@
-
-
+* {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 body {
   margin-top: 0px;
   padding-top:0px;
@@ -7,69 +8,80 @@ body {
   background-color: #fff;
 }
 
+
+
+
 .navbar {
   border-radius: 0px;
-  background-color: red;
+  background-color: #ccc;
   border: 0px #fff solid;
+
+  background: rgba(76,76,76,1);
+  background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+  background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+
 }
 .navbar-nav a {
   font-size: 2em;
   font-weight: 500;
 }
-
-* {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+.navbar-nav a:hover {
+  background-color: #000 !important;
 }
 
-.panel-top .panel-body {
-  background-color: green;
+
+
+#mainTitle {
+  font-size: 5em;
 }
 .panel-top h1 {
   font-size: 2em;
   font-weight: 900;
 }
-#mainTitle {
-  font-size: 5em;
-}
-/* START OF PANELS */
-
 .panel-top {
   border: 0px;
 }
-
+.panel-heading {
+    color: #000;
+}
 .panel-title {
 	font-weight:bolder;
 }
-
-.panel-heading {
-    color: #000;
+.panel-body {
+  border: 1px #000 solid;
+}
+.panel-body {
+  background-color: #fff;
 }
 .panel-body img, .panel-footer a {
 	display: block; margin: 0 auto; /* Centers the image */
 }
 
-.panel-heading {
+.panel-heading, .panel-top .panel-body {
     background-color: #337AB7;
     border-color: #337AB7;
     color: #fff;
+
+    background: rgba(108,146,198,1);
+    background: -moz-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(108,146,198,1)), color-stop(100%, rgba(75,115,185,1)));
+    background: -webkit-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: -o-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: -ms-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: linear-gradient(to bottom, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c92c6', endColorstr='#4b73b9', GradientType=0 );
 }
-.panel-primary {
-	border-color: #fff;
-}
-.panel-bronze {
-	border-color: #fff;
-}
-.panel-silver {
-  border-color: #fff;
-}
-.panel-gold {
-  border-color: #fff;
+.panel-heading a, .panel-heading a:hover, .contactInfo a, .contactInfo a:hover {
+  color: #fff;
+  font-weight: bold;
 }
 
-.panel-body {
-  background-color: #222;
-  color: #fff;
-}
+
 
 /* END OF PANELS */
 
