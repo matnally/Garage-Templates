@@ -113,7 +113,7 @@
         <div class="row">
           <div class="col-xs-7 col-md-6">
 
-<a href="pic1.png" data-toggle="lightbox" data-title="Joblings of Whitley Bay Ltd" data-footer="Burnside Road, North Shields, Tyne and Wear. NE30 3LE. (0191) 2522477. Joblings@JoblingsGarage.co.uk">
+<a href="pic1.png" alt="Joblings Garage" title="Joblings Garage" rel="prettyPhoto">
 
 
             <img class="img-responsive" src="pic1.png" alt="">
@@ -166,20 +166,7 @@
                 <h3 class="text-center">Gold Service</h3>
                 <p><strong>Every 24,000 miles or 24 months.</strong> A comprehensive service covering everything included in the Silver Service and also items that are regularly recommended for replacement every 2 years.</p>
 
-
-                <a href="https://youtu.be/IA44sMOj9cs" data-toggle="lightbox">Gold</a>
-                <a href="https://youtu.be/nT4v9foBLxc" data-toggle="lightbox">Bronze</a>
-
-<div class="embed-responsive embed-responsive-4by3">
-  <video controls class="embed-responsive-item">
-      <source src="_media/gold.mp4" type="video/mp4">
-  </video>
-</div>
-
-<a href="https://youtu.be/yQ0fVgawmC4" data-toggle="lightbox" data-title="Silver Service" data-footer="Every 12,000 miles or 12 months">Silver</a>
-<a href="https://youtu.be/nT4v9foBLxc" data-toggle="lightbox" data-title="Bronze Service" data-footer="For well-maintained, low-mileage vehicles">Bronze</a>
-
-
+                  <a href="https://youtu.be/IA44sMOj9cs?width=100%&height=100%" rel="prettyPhoto" title="&nbsp;Gold Service video - Every 24,000 miles or 24 months">Gold Service video</a>
 
             </div>
             <div class="col-lg-3 col-sm-3">
@@ -187,11 +174,7 @@
                 <h3 class="text-center">Silver Service</h3>
                 <p><strong>Every 12,000 miles or 12 months.</strong> A comprehensive service with 49 checks. It includes the replacement of engine oil, oil filter and air filter and an extensive range of checks to ensure optimum running of your vehicle.</p>
 
-                <div class="embed-responsive embed-responsive-4by3">
-                  <video controls class="embed-responsive-item">
-                      <source src=_media/silver.mp4 type=video/mp4>
-                  </video>
-                </div>
+                <a href="https://youtu.be/yQ0fVgawmC4?width=100%&height=100%" rel="prettyPhoto" title="&nbsp;Silver Service video - Every 12,000 miles or 12 months">Silver Service video</a>
 
             </div>
             <div class="col-lg-3 col-sm-3">
@@ -199,11 +182,9 @@
                 <h3 class="text-center">Bronze Service</h3>
                 <p><strong>For well-maintained, low-mileage vehicles.</strong> This service covers 31 checks including an oil and filter change and a general health check of the main components on your car.</p>
 <br>
-                <div class="embed-responsive embed-responsive-4by3">
-                  <video controls class="embed-responsive-item">
-<iframe src="https://www.youtube.com/embed/nT4v9foBLxc" allowfullscreen></iframe>
-                  </video>
-                </div>
+
+                  <a href="https://youtu.be/nT4v9foBLxc?width=100%&height=100%" rel="prettyPhoto" title="&nbsp;Bronze Service video - For well-maintained, low-mileage vehicles">Bronze Service video</a>
+
             </div>
         </div><!-- row -->
 
@@ -446,14 +427,20 @@
   <script src="js/jquery.js"></script><!-- jQuery -->
   <script src="js/bootstrap.min.js"></script><!-- Bootstrap Core JavaScript -->
 
-  <link href="_lightbox/ekko-lightbox.css" rel="stylesheet">
-  <script src="_lightbox/ekko-lightbox.js"></script>
-  <script>
-  $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-  });
+
+  <script src="js/jquery.prettyPhoto.js"></script><!-- Bootstrap Core JavaScript -->
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <script type="text/javascript" charset="utf-8">
+  	$(document).ready(function(){
+  		$("a[rel^='prettyPhoto']").prettyPhoto({
+        show_title: true,
+        autoplay: true,
+        social_tools: false,
+        allow_resize: true
+      }); //$("a[rel^='prettyPhoto']").prettyPhoto({
+  	}); //$(document).ready(function(){
   </script>
+
 
 </body>
 
