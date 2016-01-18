@@ -177,3 +177,15 @@ footer .panel-body {
   background-image: linear-gradient(to bottom, #B5B5B5 0%, #FFFFFF 100%);
 
 }
+
+
+
+
+
+/* PrettyPhoto */
+
+.galleryNormal {
+  float: left;
+  width: 120px;
+  height: 100px;
+}
