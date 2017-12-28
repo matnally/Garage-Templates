@@ -1,0 +1,185 @@
+* {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+  margin-top: 0px;
+  padding-top:0px;
+  background-image: url("*bg1.jpg");
+  background-color: #fff;
+}
+
+
+
+
+.navbar {
+  border-radius: 0px;
+  background-color: #ccc;
+  border: 0px #fff solid;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f85032+0,f16f5c+50,f6290c+51,f02f17+71,e73827+100;Red+Gloss+%231 */
+  background: #f85032; /* Old browsers */
+
+}
+.navbar-nav a {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff !important;
+}
+.navbar-nav a:hover {
+  background-color: #000 !important;
+}
+
+
+
+#mainTitle {
+  font-size: 4em;
+}
+.panel-top h1  {
+  font-weight: bold;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  #mainTitle {
+    font-size: 4.5em;
+  }
+  .panel-top h1  {
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  #mainTitle {
+  }
+  .panel-top h1  {
+    font-size: 2em;
+  }
+}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) {
+  #mainTitle {
+  }
+  .panel-top h1  {
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #mainTitle  {
+  }
+  .panel-top h1  {
+    font-size: 1.5em;
+  }
+}
+/* Landscape phones and down */
+@media (min-width: 480px) {
+  #mainTitle {
+  }
+  .panel-top h1  {
+    font-size: 1.5em;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #mainTitle {
+  }
+  .panel-top h1  {
+  }
+}
+
+
+.panel-top {
+  border: 0px;
+}
+.panel-heading {
+    color: #000;
+}
+.panel-title {
+	font-weight:bolder;
+}
+.panel-body {
+  border: 1px #000 solid;
+}
+.panel-body {
+  background-color: #fff;
+}
+.panel-body img, .panel-footer a {
+	display: block; margin: 0 auto; /* Centers the image */
+}
+
+.panel-heading, .panel-top .panel-body {
+    background-color: #337AB7;
+    border-color: #337AB7;
+    color: #fff;
+
+    background: rgba(108,146,198,1);
+    background: -moz-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(108,146,198,1)), color-stop(100%, rgba(75,115,185,1)));
+    background: -webkit-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: -o-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: -ms-linear-gradient(top, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    background: linear-gradient(to bottom, rgba(108,146,198,1) 0%, rgba(75,115,185,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c92c6', endColorstr='#4b73b9', GradientType=0 );
+}
+a {
+  word-wrap: break-word;
+}
+.panel-heading a, .panel-heading a:hover, .contactInfo a, .contactInfo a:hover {
+  color: #fff;
+}
+
+
+
+/* END OF PANELS */
+
+
+
+a {
+}
+a:hover {
+}
+
+
+.featurette-divider {
+border: 1px #ccc solid;
+}
+
+
+
+
+footer {
+}
+
+footer .panel-body {
+  background: #ccc;
+  border: 0px #000 solid;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d4e4ef+0,86aecc+100;Grey+Gloss */
+
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #B5B5B5 0%, #FFFFFF 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #B5B5B5 0%, #FFFFFF 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(top, #B5B5B5 0%, #FFFFFF 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B5B5B5), color-stop(100, #FFFFFF));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #B5B5B5 0%, #FFFFFF 100%);
+
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #B5B5B5 0%, #FFFFFF 100%);
+
+}
+
+
+
+
+
+/* PrettyPhoto */
+
+.galleryNormal {
+  width: 120px;
+  height: 75px;
+  padding-right: 10px !important;
+}
